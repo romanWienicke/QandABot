@@ -1,0 +1,63 @@
+﻿{
+  "name": "QandABot",
+  "description": "",
+  "services": [
+    {
+      "type": "abs",
+      "tenantId": "17e8410a-c9d3-4fbb-bcdd-036e5c83c6d1",
+      "subscriptionId": "f7a50112-bb66-4fa4-be45-2e71fb68303d",
+      "resourceGroup": "Bots",
+      "serviceName": "QandABot",
+      "name": "QandABot",
+      "id": "1",
+      "appId": "74607e32-9406-4921-97d1-e8971fe2673b"
+    },
+    {
+      "type": "blob",
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=andot47jn;AccountKey=J+1HNDiEuWVrJD9jnn0wTGweo5cTwGo4UMmAECMp+9JUWDJXSaPzYQ7s94kddBCpOa4He5FP98a3UNOQ/Lv6cw==;",
+      "tenantId": "17e8410a-c9d3-4fbb-bcdd-036e5c83c6d1",
+      "subscriptionId": "f7a50112-bb66-4fa4-be45-2e71fb68303d",
+      "resourceGroup": "Bots",
+      "serviceName": "andot47jn",
+      "id": "2"
+    },
+    {
+      "type": "endpoint",
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "type": "endpoint",
+      "appId": "74607e32-9406-4921-97d1-e8971fe2673b",
+      "appPassword": "+=[]PdP2J{#}ylF;?l$S@6sd%Q5x",
+      "endpoint": "https://andotvc3q.azurewebsites.net/api/messages",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "type": "appInsights",
+      "instrumentationKey": "3428ea00-6c9e-43cd-9d44-57de0d298fdb",
+      "applicationId": "3d2bca62-e198-47ca-971a-1578f8b306c7",
+      "apiKeys": {},
+      "tenantId": "17e8410a-c9d3-4fbb-bcdd-036e5c83c6d1",
+      "subscriptionId": "f7a50112-bb66-4fa4-be45-2e71fb68303d",
+      "resourceGroup": "Bots",
+      "serviceName": "QandABotnyjw6o",
+      "id": "5"
+    },
+    {
+      "type": "qna",
+      "name": "TrainerKb",
+      "kbId": "eea6fd56-22ad-4ce8-bc01-36e228b2ca1b",
+      "hostname": "https://trainerqandaservice.azurewebsites.net",
+      "endpointKey": "7e0316b0-0cf8-4e9c-8945-292fb8194b55",
+      "subscriptionKey": "f7a50112-bb66-4fa4-be45-2e71fb68303d",
+      "id": "10001"
+    }
+  ],
+  "padlock": "",
+  "version": "2.0"
+}
